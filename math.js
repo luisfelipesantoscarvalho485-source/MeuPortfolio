@@ -11,8 +11,10 @@ function sortear() {
         alert("O Primeiro Número Não Pode Ser Maior Que O Segundo")
         return;
     }
+    else{
 
     const result = Math.floor(Math.random() * (valor2 - valor1 + 1)) +valor1;
     
     alert(result)
+    }
 }
