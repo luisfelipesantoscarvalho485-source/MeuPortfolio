@@ -4,6 +4,10 @@ button.addEventListener("click" , sortear)
 
 function sortear() {
 
+    if(valor1 <= valor2){
+    alert("O Primeiro valor nao pode ser maior que o segundo)
+    }
+
     const valor1 = Math.ceil(document.querySelector(".primeiro").value)
     const valor2 = Math.floor(document.querySelector(".max").value)
 
